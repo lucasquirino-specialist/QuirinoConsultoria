@@ -3,8 +3,6 @@ name: Deploy Vite App to GitHub Pages
 on:
   push:
     branches: ["main"]
-
-  # Permite rodar o deploy manualmente pela aba Actions
   workflow_dispatch:
 
 permissions:
@@ -20,7 +18,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-       url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -37,6 +35,9 @@ jobs:
 
       - name: Build project
         run: npm run build
+
+      - name: Inject CNAME
+        run: echo "quirinoconsultoria.com.br" > ./dist/CNAME
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
