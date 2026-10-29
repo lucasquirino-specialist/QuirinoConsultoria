@@ -151,7 +151,7 @@ const siteConfig = {
     tagline: "Quirino Consultoria • Inteligência Contábil e de Gestão",
     socials: [
       { platform: "Site", href: "https://www.quirinoconsultoria.com.br" },
-      { platform: "E-mail", href: "mailto:luca.quirino@outlook.com" },
+      { platform: "E-mail", href: "mailto:lucas.quirino@quirinoconsultoria.com.br" },
       { platform: "WhatsApp", href: "https://wa.me/5581996770064" },
     ],
     copyright: `© ${new Date().getFullYear()} Quirino Consultoria. Todos os direitos reservados.`,
