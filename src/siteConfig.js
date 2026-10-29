@@ -133,7 +133,7 @@ const siteConfig = {
     badge: "Fale Conosco",
     headline: "Agende um\nDiagnóstico Gratuito.",
     subtext: "Vamos analisar os indicadores e a estrutura contábil da sua empresa.",
-    email: "luca.quirino@outlook.com",
+    email: "lucas.quirino@quirinoconsultoria.com.br",
     phone: "(81) 99677-0064",
     whatsapp: "5581996770064",
     location: "Recife - PE",
